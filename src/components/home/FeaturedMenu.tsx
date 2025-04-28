@@ -9,7 +9,7 @@ const featuredItems: MenuItem[] = [
     name: 'Wild Mushroom Risotto',
     description: 'Creamy Arborio rice with a medley of wild mushrooms, finished with aged Parmesan and truffle oil',
     price: 28,
-    image: 'https://images.pexels.com/photos/5836762/pexels-photo-5836762.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://www.crowdedkitchen.com/wp-content/uploads/2020/09/wild-mushroom-risotto-11.jpg',
     category: 'main',
     featured: true
   },

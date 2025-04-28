@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { motion } from 'framer-motion';
 import clsx from 'clsx';
+import logo from '../../assets/logo.png';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,25 +40,25 @@ const Header = () => {
         'fixed w-full z-50 transition-all duration-300',
         isScrolled || !isHomePage
           ? 'bg-white bg-opacity-95 shadow-md py-3'
-          : 'bg-transparent py-6'
+          : 'bg-transparent py-5'
       )}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <img 
-            src="/logo.png"
+            src={logo}
             alt="Flavoura Logo"
             className={clsx(
               'mr-2 transition-all duration-300',
-              isScrolled ? 'h-8 w-8' : 'h-10 w-10'
+              isScrolled ? 'h-12 w-12' : 'h-14 w-14'
             )}
           />
           <span
             className={clsx(
               'font-semibold tracking-tight transition-all duration-300',
               isScrolled || !isHomePage
-                ? 'text-secondary-950 text-xl'
+                ? 'text-secondary-950 text-xl '
                 : 'text-white text-2xl drop-shadow-md'
             )}
           >

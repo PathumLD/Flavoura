@@ -25,7 +25,7 @@ const Menu = () => {
   ];
 
   return (
-    <div className="pt-14">
+    <div className="pt-20">
       {/* Hero Section */}
       <div className="relative bg-secondary-900 text-white py-20">
         <div 

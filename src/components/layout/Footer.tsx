@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Instagram, Facebook, Twitter, MapPin, Phone, Mail } from 'lucide-react';
+import logo from '../../assets/logo.png';
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center">
               <img 
-                src="/logo.png"
+                src={logo}
                 alt="Flavoura Logo"
                 className="w-8 h-8 mr-2"
               />
@@ -98,7 +99,7 @@ const Footer = () => {
         </div>
 
         {/* Newsletter */}
-        <div className="mt-12 pt-8 border-t border-secondary-700">
+        {/* <div className="mt-12 pt-8 border-t border-secondary-700">
           <div className="flex flex-col md:flex-row md:items-center justify-between">
             <div className="md:w-1/2 mb-6 md:mb-0">
               <h3 className="text-lg font-semibold mb-2">Subscribe to our Newsletter</h3>
@@ -121,7 +122,7 @@ const Footer = () => {
               </form>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Copyright */}
         <div className="mt-12 pt-6 border-t border-secondary-800 text-center text-secondary-400 text-sm">

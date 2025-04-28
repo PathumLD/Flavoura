@@ -24,7 +24,7 @@ export const menuItems: MenuItem[] = [
     name: 'Burrata & Heirloom Tomatoes',
     description: 'Creamy burrata cheese with heirloom tomatoes, basil pesto, aged balsamic, and grilled sourdough',
     price: 16,
-    image: 'https://images.pexels.com/photos/13998612/pexels-photo-13998612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://www.wellseasonedstudio.com/wp-content/uploads/2023/06/Light-summer-tomato-salad-with-burrata-cheese-truffle-oil-and-fresh-basil.jpg',
     category: 'starters'
   },
   {
@@ -42,7 +42,7 @@ export const menuItems: MenuItem[] = [
     name: 'Wild Mushroom Risotto',
     description: 'Creamy Arborio rice with a medley of wild mushrooms, finished with aged Parmesan and truffle oil',
     price: 28,
-    image: 'https://images.pexels.com/photos/5836762/pexels-photo-5836762.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://www.crowdedkitchen.com/wp-content/uploads/2020/09/wild-mushroom-risotto-11.jpg',
     category: 'main',
     featured: true
   },
@@ -95,7 +95,7 @@ export const menuItems: MenuItem[] = [
     name: 'Crème Brûlée',
     description: 'Classic vanilla bean custard with caramelized sugar crust and fresh berries',
     price: 12,
-    image: 'https://images.pexels.com/photos/8890537/pexels-photo-8890537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://www.allrecipes.com/thmb/y-S61IJkYyCUjTMGYqkaoJGwBrY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-228515-simple-creme-brulee-dessert-dmfs-4x3-821623e7a86548eeb89370ac23d5f251.jpg',
     category: 'desserts'
   },
   {
